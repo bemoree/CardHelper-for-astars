@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Установка скрипта | CardHelper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            color: #666;
+        }
+        .install-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .install-btn:hover {
+            background-color: #218838;
+        }
+        .warning {
+            color: red;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .tampermonkey-link {
+            display: block;
+            margin-top: 15px;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .tampermonkey-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CardHelper</h1>
+        <p>Скрипт для Astars.tv</p>
+        <a class="install-btn" href="https://raw.githubusercontent.com/bemoree/CardHelper-for-astars/refs/heads/main/CardHelper">
+            Установить этот скрипт
+        </a>
+        <p class="warning">⚠️ Внимание! Скрипт работает только в браузерах, поддерживающих расширения!</p>
+        <p>Для установки необходимо сначала установить расширение Tampermonkey:</p>
+        <a class="tampermonkey-link" href="https://www.tampermonkey.net/" target="_blank">Скачать Tampermonkey</a>
+    </div>
+</body>
+</html>
